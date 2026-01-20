@@ -1,4 +1,4 @@
-package com.sinful.weatherapp.ui.theme
+package com.sinful.weatherapp.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
