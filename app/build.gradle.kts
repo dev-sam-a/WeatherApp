@@ -70,8 +70,8 @@ dependencies {
     implementation("com.arkivanov.mvikotlin:mvikotlin-main:3.2.1")
     implementation("com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines:3.2.1")
 
-    implementation("com.arkivanov.decompose:decompose:3.4.0")
-    implementation("com.arkivanov.decompose:extensions-compose:3.4.0")
+    implementation("com.arkivanov.decompose:decompose:2.1.2")
+    implementation("com.arkivanov.decompose:extensions-compose-jetpack:2.1.2")
 
     implementation("androidx.room:room-ktx:2.8.4")
     ksp("androidx.room:room-compiler:2.8.4")

@@ -1,3 +1,17 @@
-package com.sinful.weatherapp.presentation.search;
+package com.sinful.weatherapp.presentation.search
 
-public interface SearchComponent{}
+import com.sinful.weatherapp.domain.entity.City
+import kotlinx.coroutines.flow.StateFlow
+
+interface SearchComponent {
+
+    val model: StateFlow<SearchStore.State>
+
+    fun changeSearchQuery(query: String)
+
+    fun onClickBack()
+
+    fun onClickSearch()
+
+    fun onClickCity(city: City)
+}
