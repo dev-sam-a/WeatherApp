@@ -44,7 +44,7 @@ interface FavouriteStore : Store<Intent, State, Label> {
     }
 }
 
-class DetailsStoreFactory @Inject constructor(
+class FavouriteStoreFactory @Inject constructor(
     private val storeFactory: StoreFactory,
     private val getFavouriteCitiesUseCase: GetFavouriteCitiesUseCase,
     private val getCurrentWeatherUseCase: GetCurrentWeatherUseCase
