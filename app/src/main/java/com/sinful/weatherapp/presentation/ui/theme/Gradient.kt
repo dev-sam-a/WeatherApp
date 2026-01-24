@@ -7,14 +7,14 @@ data class Gradient(
     val primaryGradient: Brush,
     val secondaryGradient: Brush,
     val shadowColor: Color
-){
+) {
 
     constructor(
         firstColor: Color,
         secondColor: Color,
         thirdColor: Color,
         fourthColor: Color,
-    ): this(
+    ) : this(
         primaryGradient = Brush.linearGradient(listOf(firstColor, secondColor)),
         secondaryGradient = Brush.linearGradient(listOf(thirdColor, fourthColor)),
         shadowColor = fourthColor
@@ -62,6 +62,13 @@ object CardGradients {
             secondColor = Color(0xFF8E4A8A),
             thirdColor = Color(0xFF6F3A6C),
             fourthColor = Color(0xFF51284F),
+        ),
+
+        Gradient(
+            Color(0xFFFFE5E0), // нежно-персиковый
+            Color(0xFFFFCFC6), // светло-коралловый
+            Color(0xFFFFB3A8), // розово-персиковый
+            Color(0xFFFF9C8F)  // нежно-терракотовый
         )
     )
 }
