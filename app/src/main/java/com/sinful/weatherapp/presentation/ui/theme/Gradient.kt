@@ -64,11 +64,5 @@ object CardGradients {
             fourthColor = Color(0xFF51284F),
         ),
 
-        Gradient(
-            Color(0xFFFFE5E0), // нежно-персиковый
-            Color(0xFFFFCFC6), // светло-коралловый
-            Color(0xFFFFB3A8), // розово-персиковый
-            Color(0xFFFF9C8F)  // нежно-терракотовый
-        )
     )
 }
