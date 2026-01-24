@@ -1,6 +1,7 @@
 package com.sinful.weatherapp.presentation.root
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import com.arkivanov.decompose.extensions.compose.jetpack.stack.Children
 import com.sinful.weatherapp.presentation.details.DetailsContent
 import com.sinful.weatherapp.presentation.favourite.FavouriteContent
