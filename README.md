@@ -43,10 +43,10 @@ Weather App — это Android‑приложение, реализованно�
 
 ## 🖼️ Пример UI
 
-<p align="center">
-  <img src="screenshots/WeatherAppUI_1.jpg" width="200" />
-  <img src="screenshots/WeatherAppUI_2.jpg" width="200" />
-  <img src="screenshots/WeatherAppUI_3.jpg" width="200" />
+<p>
+  <img src="app/screenshots/WeatherAppUI_1.jpg" width="200" />
+  <img src="app/screenshots/WeatherAppUI_2.jpg" width="200" />
+  <img src="app/screenshots/WeatherAppUI_3.jpg" width="200" />
 </p>
 
 ---
