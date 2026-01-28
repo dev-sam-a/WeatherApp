@@ -20,6 +20,6 @@ class WeatherRepositoryImpl @Inject constructor(
 
     private companion object {
 
-        private const val PREFIX_CITY_ID = "id"
+        private const val PREFIX_CITY_ID = "id:"
     }
 }
